@@ -7,6 +7,7 @@ def directors_totals(nds)
   #
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
+<<<<<<< HEAD
 
   result = {}
   i = 0
@@ -23,6 +24,11 @@ def directors_totals(nds)
 
     i +=1
   end
+=======
+  pp nds
+  result = {
+  }
+>>>>>>> a182e67d5dddd3bbbbc5bac90d224fee755ab957
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
